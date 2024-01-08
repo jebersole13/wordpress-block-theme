@@ -11,5 +11,5 @@
   <?php wp_head() ?> 
 
 </head>
-<body>
+<body <?= body_class(); ?>>
   
