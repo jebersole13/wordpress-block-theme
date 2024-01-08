@@ -5,14 +5,16 @@
 get_header();
 
 
-if (<?php if ( have_posts() ) : ?>
+if ( have_posts() ) : 
 
-  <?php while ( have_posts() ) : the_post(); ?>
+ while ( have_posts() ) : 
+  
+  the_post(); 
 
-    <?php the_content(); ?>
+    the_content(); 
 
-  <?php endwhile; ?>
+   endwhile; 
 
-<?php endif; ?>
-<?php wp_reset_postdata(); ?>)
+endif; ?>
+ wp_reset_postdata();
 get_footer();
