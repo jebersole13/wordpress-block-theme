@@ -21,12 +21,18 @@ get_header();
 
 if(comments_open() or get_comments_number()) :
   comments_template(); 
+
+  endif;
   ?>
 
 
 </main>
 
+<?php get_sidebar(); ?>
+
 </div>
 
 <?php 
 get_footer();
+
+endif;
