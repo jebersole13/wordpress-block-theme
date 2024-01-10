@@ -2,7 +2,19 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 1.0,
 	"settings": {
-		"appearanceTools": true
+		"appearanceTools": true,
+		"typography": {
+			"customFontSize": true,
+			"dropCap": true,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": true,
+			"lineHeight": false,
+			"textColumns": false,
+			"textDecoration": true,
+			"textTransform": true,
+			"writingMode": false
+		}
 	},
     "styles": {},
 	"customTemplates": {},
