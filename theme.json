@@ -6,8 +6,35 @@
 		"typography": {
 			"customFontSize": true,
 			"dropCap": true,
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "sm",
+					"fluid": false
+				},
+				{
+					"name": "Medium",
+					"size": "1.25rem",
+					"slug": "md",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.5rem"
+					}
+				},
+				{
+					"name": "Large",
+					"size": "1.5rem",
+					"slug": "lg",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "2rem"
+					}
+				}
+			],
 			"fontStyle": true,
 			"fontWeight": true,
+			"fluid": true,
 			"letterSpacing": true,
 			"lineHeight": false,
 			"textColumns": false,

@@ -12,9 +12,9 @@ License: GNU v3 or Later
 
 body {
 	--wp--preset--font-size--small: 13px;
-	--wp--preset--font-size--medium: 20px;
-	--wp--preset--font-size--large: 36px;
-	--wp--preset--font-size--x-large: 42px;
+	--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.852), 20px);
+	--wp--preset--font-size--large: clamp(22.041px, 1.378rem + ((1vw - 3.2px) * 1.983), 36px);
+	--wp--preset--font-size--x-large: clamp(25.014px, 1.563rem + ((1vw - 3.2px) * 2.413), 42px);
 }
 
 
