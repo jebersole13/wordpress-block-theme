@@ -2,13 +2,7 @@
 
 //primary page  
 
-wp_enqueue_style( 
-	string $handle, 
-	string $src           = '', 
-	string[] $deps        = array(), 
-	string|bool|null $ver = false, 
-	string $media         = 'all'
-);
+
 
 
 add_action( 'wp_enqueue_scripts', 'theme_slug_enqueue_styles' );
