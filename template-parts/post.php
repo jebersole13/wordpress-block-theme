@@ -1,4 +1,4 @@
-<?p 
+<?php 
 
 function add_post_meta( $post_id, $meta_key, $meta_value, $unique = false ) {
 	// Make sure meta is added to the post, not a revision.
